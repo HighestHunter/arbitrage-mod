@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "hugoarb",
+  "version": "${version}",
+  "name": "HugoSMP Arbitrage",
+  "description": "Zeigt die Arbitrage-Daten von hugosmp-market.net live ingame an. Hotkey frei belegbar.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["net.hugoarb.HugoArbClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
